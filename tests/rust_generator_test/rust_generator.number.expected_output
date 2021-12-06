@@ -8,7 +8,7 @@ pub struct CssClasses<'a> {
     pub test_2_p_5: &'a str,
 }
 
-pub static C: CssClasses = CssClasses {
+pub const C: CssClasses = CssClasses {
     _2xl__test: "2xl:test",
     test_2_p_5: "test-2.5",
 };

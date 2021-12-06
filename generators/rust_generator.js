@@ -133,7 +133,7 @@ function generateStructDefinitionItem (class_) {
 
 function generateStructInstance (classes) {
   return (
-    'pub static C: CssClasses = CssClasses {' +
+    'pub const C: CssClasses = CssClasses {' +
     os.EOL +
     classes.map(generateStructInstanceItem).join('') +
     '};'

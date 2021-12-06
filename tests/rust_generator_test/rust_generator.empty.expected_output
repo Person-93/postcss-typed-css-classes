@@ -5,5 +5,5 @@
 pub struct CssClasses {
 }
 
-pub static C: CssClasses = CssClasses {
+pub const C: CssClasses = CssClasses {
 };

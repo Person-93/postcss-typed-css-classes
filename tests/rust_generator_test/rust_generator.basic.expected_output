@@ -44,7 +44,7 @@ pub struct CssClasses<'a> {
     pub fas: &'a str,
 }
 
-pub static C: CssClasses = CssClasses {
+pub const C: CssClasses = CssClasses {
     space_y_0: "space-y-0",
     space_y_0_p_5: "space-y-0.5",
     focus_within__bg_pink_500: "focus-within:bg-pink-500",
